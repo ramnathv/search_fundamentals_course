@@ -2,10 +2,13 @@ flask
 opensearch-py
 ipython
 click
+fastparquet
 lxml
 kaggle
 requests
 urljoin
 graphviz
 pandas
+pyyaml
+pyarrow
 numexpr
