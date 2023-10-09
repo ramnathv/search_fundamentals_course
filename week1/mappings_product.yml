@@ -1,0 +1,310 @@
+bbuy_products:
+  mappings:
+    properties:
+      accessories:
+        fields:
+          keyword:
+            ignore_above: 256
+            type: keyword
+        type: text
+      active:
+        fields:
+          keyword:
+            ignore_above: 256
+            type: keyword
+        type: text
+      artistName:
+        fields:
+          keyword:
+            ignore_above: 256
+            type: keyword
+        type: text
+      bestBuyItemId:
+        fields:
+          keyword:
+            ignore_above: 256
+            type: keyword
+        type: text
+      bestSellingRank:
+        fields:
+          keyword:
+            ignore_above: 256
+            type: keyword
+        type: text
+      categoryLeaf:
+        fields:
+          keyword:
+            ignore_above: 256
+            type: keyword
+        type: text
+      categoryPath:
+        fields:
+          keyword:
+            ignore_above: 256
+            type: keyword
+        type: text
+      categoryPathCount:
+        type: float
+      categoryPathIds:
+        fields:
+          keyword:
+            ignore_above: 256
+            type: keyword
+        type: text
+      class:
+        fields:
+          keyword:
+            ignore_above: 256
+            type: keyword
+        type: text
+      classId:
+        fields:
+          keyword:
+            ignore_above: 256
+            type: keyword
+        type: text
+      color:
+        fields:
+          keyword:
+            ignore_above: 256
+            type: keyword
+        type: text
+      condition:
+        fields:
+          keyword:
+            ignore_above: 256
+            type: keyword
+        type: text
+      customerReviewAverage:
+        fields:
+          keyword:
+            ignore_above: 256
+            type: keyword
+        type: text
+      customerReviewCount:
+        fields:
+          keyword:
+            ignore_above: 256
+            type: keyword
+        type: text
+      department:
+        type: keyword
+      departmentId:
+        fields:
+          keyword:
+            ignore_above: 256
+            type: keyword
+        type: text
+      depth:
+        fields:
+          keyword:
+            ignore_above: 256
+            type: keyword
+        type: text
+      digital:
+        fields:
+          keyword:
+            ignore_above: 256
+            type: keyword
+        type: text
+      features:
+        fields:
+          keyword:
+            ignore_above: 256
+            type: keyword
+        type: text
+      frequentlyPurchasedWith:
+        fields:
+          keyword:
+            ignore_above: 256
+            type: keyword
+        type: text
+      height:
+        fields:
+          keyword:
+            ignore_above: 256
+            type: keyword
+        type: text
+      homeDelivery:
+        fields:
+          keyword:
+            ignore_above: 256
+            type: keyword
+        type: text
+      image:
+        fields:
+          keyword:
+            ignore_above: 256
+            type: keyword
+        type: text
+      inStoreAvailability:
+        fields:
+          keyword:
+            ignore_above: 256
+            type: keyword
+        type: text
+      inStorePickup:
+        fields:
+          keyword:
+            ignore_above: 256
+            type: keyword
+        type: text
+      longDescription:
+        fields:
+          keyword:
+            ignore_above: 256
+            type: keyword
+        type: text
+        analyzer: english
+      longDescriptionHtml:
+        fields:
+          keyword:
+            ignore_above: 256
+            type: keyword
+        type: text
+      manufacturer:
+        fields:
+          keyword:
+            ignore_above: 256
+            type: keyword
+        type: text
+      modelNumber:
+        fields:
+          keyword:
+            ignore_above: 256
+            type: keyword
+        type: text
+      name:
+        fields:
+          keyword:
+            ignore_above: 256
+            type: keyword
+        type: text
+        analyzer: english
+      onSale:
+        fields:
+          keyword:
+            ignore_above: 256
+            type: keyword
+        type: text
+      onlineAvailability:
+        fields:
+          keyword:
+            ignore_above: 256
+            type: keyword
+        type: text
+      productId:
+        fields:
+          keyword:
+            ignore_above: 256
+            type: keyword
+        type: text
+      quantityLimit:
+        fields:
+          keyword:
+            ignore_above: 256
+            type: keyword
+        type: text
+      regularPrice:
+        type: float
+      relatedProducts:
+        fields:
+          keyword:
+            ignore_above: 256
+            type: keyword
+        type: text
+      releaseDate:
+        type: date
+      salePrice:
+        fields:
+          keyword:
+            ignore_above: 256
+            type: keyword
+        type: text
+      salesRankLongTerm:
+        fields:
+          keyword:
+            ignore_above: 256
+            type: keyword
+        type: text
+      salesRankMediumTerm:
+        fields:
+          keyword:
+            ignore_above: 256
+            type: keyword
+        type: text
+      salesRankShortTerm:
+        fields:
+          keyword:
+            ignore_above: 256
+            type: keyword
+        type: text
+      shippingCost:
+        fields:
+          keyword:
+            ignore_above: 256
+            type: keyword
+        type: text
+      shippingWeight:
+        fields:
+          keyword:
+            ignore_above: 256
+            type: keyword
+        type: text
+      shortDescription:
+        fields:
+          keyword:
+            ignore_above: 256
+            type: keyword
+        type: text
+        analyzer: english
+      shortDescriptionHtml:
+        fields:
+          keyword:
+            ignore_above: 256
+            type: keyword
+        type: text
+      sku:
+        fields:
+          keyword:
+            ignore_above: 256
+            type: keyword
+        type: text
+      startDate:
+        type: date
+      subclass:
+        fields:
+          keyword:
+            ignore_above: 256
+            type: keyword
+        type: text
+      subclassId:
+        fields:
+          keyword:
+            ignore_above: 256
+            type: keyword
+        type: text
+      type:
+        fields:
+          keyword:
+            ignore_above: 256
+            type: keyword
+        type: text
+      url:
+        fields:
+          keyword:
+            ignore_above: 256
+            type: keyword
+        type: text
+      weight:
+        fields:
+          keyword:
+            ignore_above: 256
+            type: keyword
+        type: text
+      width:
+        fields:
+          keyword:
+            ignore_above: 256
+            type: keyword
+        type: text
